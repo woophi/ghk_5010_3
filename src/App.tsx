@@ -168,6 +168,7 @@ export const App = () => {
 
           <Steps isVerticalAlign interactive={false} className={appSt.stepStyle}>
             <Typography.Text view="component-primary">Подключите подписку Альфа-Смарт</Typography.Text>
+            <Typography.Text view="component-primary">Откройте брокерский счет или ИИС</Typography.Text>
             <Typography.Text view="component-primary">
               Дополнительные опции от Альфа-Инвестиций подключатся автоматически
             </Typography.Text>
@@ -241,7 +242,7 @@ export const App = () => {
 
             <div>
               <Typography.Text tag="p" defaultMargins={false} view="primary-small" weight="bold">
-                Анализ изменения стоимости портфеля
+                Эксклюзивные данные
               </Typography.Text>
               <Typography.Text view="primary-small" color="secondary">
                 Аналитический обзор — раз в месяц, идеи для инвестиций — раз в неделю
